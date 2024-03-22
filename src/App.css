@@ -1,0 +1,49 @@
+.main-container
+{
+    padding: 30px;
+    background-color: rgb(38, 180, 198);
+    border: 2px solid rgb(12, 116, 130);
+    border-radius: 15px;
+    height: auto;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.main-container h1
+{
+    margin-bottom: 20px;
+    color: #000;
+}
+
+form button
+{
+    margin-left: 8px;
+    color: #fff;
+    background-color: rgb(53, 196, 98);
+    border: 1.8px solid rgb(43, 255, 0);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+form button:hover
+{
+    transition: .4s;
+    background-color: rgb(43, 255, 0);
+    border: 1.8px solid rgb(0, 255, 136);
+    border-radius: 5px;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    border: 1px solid #fff;
+}
+

@@ -1,0 +1,70 @@
+.tarea
+{
+    display: flex;
+    justify-content: center;
+}
+
+.completada 
+{
+    background-color: rgb(66, 255, 56);
+    color: #fff;
+    font-weight: 600;
+}
+
+.incompleta
+{
+    font-weight: 600;
+    color: #fff;
+}
+
+.tarea-boton-borrar
+{
+    margin: 5px 10px 5px 10px;
+}
+
+.tarea-boton-completada
+{
+    margin: 5px 5px 5px;
+}
+
+ul .tarea .tarea-boton-borrar   
+{
+    margin-left: 8px;
+    color: #fff;
+    background-color: rgb(214, 40, 40);
+    border: 1.8px solid rgb(198, 0, 0);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+    cursor: pointer;
+}
+
+ul .tarea .tarea-boton-completada   
+{
+    margin-left: 8px;
+    color: #fff;
+    background-color: rgb(43, 214, 40);
+    border: 1.8px solid rgb(0, 198, 30);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.tarea .tarea-boton-borrar:hover
+{
+    transition: .1s;
+    background-color: rgb(198, 0, 0);
+    border: 3px solid rgb(214, 40, 40);
+    border-radius: 5px;
+}
+
+.tarea .tarea-boton-completada:hover
+{
+    transition: .1s;
+    background-color: rgb(0, 198, 30);
+    border: 3px solid rgb(43, 214, 40);
+    border-radius: 5px;
+}
